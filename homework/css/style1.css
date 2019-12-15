@@ -1,0 +1,41 @@
+body { width: 100%; margin: 0; padding: 0; background-color: #ffffff; }
+
+header { font-family: "Source Sans Pro", sans-serif; background-image: url("../img/m-h-day.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; height: 720px; border-radius: 0% 0% 40% 50%/100% 60% 40% 0%; }
+header .header_button, header .section_banner_button { font-weight: bold; font-size: 18px; border-radius: 5px; background-color: #699a00; color: #ffffff; border: none; width: 141px; height: 51px; margin-right: 28px; }
+header .login { margin-left: 145px; color: #ffffff; font-size: 16px; }
+header .header-wrap { margin-left: 185px; }
+header .header-wrap img { margin-top: 10px; display: flex; width: 45px; height: 45px; }
+header .header-wrap .landing-logo { width: 300px; padding-top: 10px; }
+header .header-wrap .landing-logo img { float: left; }
+header .header-wrap .landing-logo p { font-weight: bold; margin-top: 10px; font-size: 23px; margin-left: 55px; }
+header .header-wrap .landing-logo p span { display: flex; text-align: center; font-size: 10px; line-height: 0px; padding-left: 10px; }
+header .header-wrap .header_heading { color: #1b1e2a; position: relative; width: 500px; padding-top: 13px; font-size: 67px; font-weight: 700; letter-spacing: 1px; line-height: 60px; z-index: 2; margin-bottom: 24px; }
+header .header-wrap .header_heading::after { content: ""; position: absolute; left: 0px; bottom: 1px; background-color: #0ca1c8; z-index: -1; width: 289px; height: 49px; }
+header .header_text { width: 800px; white-space: pre-line; margin-left: 7px; margin-bottom: 56px; color: #1b1e2a; }
+
+main .section_text { color: #1b1e2a; position: relative; font-family: "Source Sans Pro", sans-serif; font-weight: bold; font-size: 40px; z-index: 2; width: 434px; margin-left: 762px; }
+main .section_text::after { content: ""; position: absolute; left: 212px; bottom: 7px; background-color: #0ca1c8; z-index: -1; width: 185px; height: 51px; }
+main .section_card_wrap { font-family: "Source Sans Pro", sans-serif; }
+main .section_card_wrap .section_card_heading { text-align: center; font-weight: bold; font-size: 23px; padding-top: 15px; padding-bottom: 10px; }
+main .section_card_wrap .section_card_text { text-align: justify; width: 462px; padding-left: 535px; font-size: 15px; line-height: 20px; word-spacing: 2px; margin-bottom: 7px; padding-bottom: 9px; color: #ffffff; margin-bottom: 60px; }
+main .section_card_wrap .section_link { padding-left: 277px; margin-bottom: 40px; color: #ffffff; font-size: 16px; }
+main .section_card { display: block; border-radius: 15px; width: 1077px; height: 295px; padding: 20px; margin: 20px; margin-left: auto; margin-right: auto; background-color: #282b39; color: #ffffff; }
+main .section_card .section_card_img { float: left; width: 427px; height: 296px; }
+main .section_banner { position: sticky; display: block; width: 1077px; height: 295px; padding: 20px; margin: 20px; margin-left: auto; margin-right: auto; margin-top: 130px; width: 1158px; height: 109px; background: linear-gradient(45deg, #679800, #2a5cd3); }
+main .section_banner_text_wrap { position: relative; font-family: "Source Sans Pro", sans-serif; flex-direction: column; align-items: center; margin-left: 120px; }
+main .section_banner_text_wrap .section_banner_heading { color: #1b1e2a; position: relative; z-index: 2; width: 413px; height: 49px; margin-bottom: 0px; font-size: 30px; margin-top: 5px; font-weight: bold; z-index: 2; }
+main .section_banner_text_wrap .section_banner_heading::after { content: ""; position: absolute; left: 124px; bottom: 12px; background-color: #0ca1c8; z-index: -1; width: 59px; height: 49px; }
+main .section_banner_text_wrap .section_banner_text { margin-top: 0px; color: #ffffff; margin-top: 0px; }
+
+.footer { color: #ffffff; display: block; width: 100%; height: 253px; margin-top: -94px; margin-bottom: 20px; background-color: #282b39; }
+.footer img { margin-top: 10px; display: flex; width: 45px; height: 45px; }
+.footer .landing-logo { width: 300px; padding-top: 10px; }
+.footer .landing-logo img { float: left; }
+.footer .landing-logo p { font-weight: bold; margin-top: 10px; font-size: 23px; margin-left: 55px; }
+.footer .landing-logo p span { display: flex; text-align: center; font-size: 10px; line-height: 0px; padding-left: 10px; }
+
+.footer-wrap { font-family: "Source Sans Pro", sans-serif; padding-top: 110px; display: flex; justify-content: space-around; align-items: center; margin: 0; }
+
+.footer_text { text-align: left; width: 321px; }
+
+.section_banner_button { font-weight: bold; font-size: 18px; border-radius: 5px; background-color: #699a00; color: #ffffff; border: none; width: 141px; height: 51px; position: absolute; left: 900px; bottom: 46px; float: right; }
