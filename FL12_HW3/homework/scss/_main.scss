@@ -33,8 +33,7 @@ border-radius: 0% 0% 40% 50% / 100% 60% 40% 0% ;
 }
 .login {
     margin-left: 145px;
-    @include Link_style;
-    
+    @include Link_style;    
 }
 .header-wrap {
     margin-left: 185px; 
@@ -86,8 +85,7 @@ border-radius: 0% 0% 40% 50% / 100% 60% 40% 0% ;
                 width: 289px;
                 height: 49px;
             }
-            }
-        
+            }     
     }
     .header_text {
         width: 800px;
@@ -97,10 +95,7 @@ border-radius: 0% 0% 40% 50% / 100% 60% 40% 0% ;
         color: map-get($colors,HeaderTxtColor);
     }    
     }
-     
-
 main {
-// text-align: center;
    .section_text{
     color: map-get($colors,HeaderTxtColor);
     position: relative;
