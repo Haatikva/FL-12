@@ -1,0 +1,373 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+
+:root {
+    --bg-color--dark: #0b192f;
+    --bg-color--header: #024161;
+    --link: #fff;
+    --link--hover: #1f52a4;
+    --bg-footer-color: #024161;
+}
+
+@media (max-width:768px) {
+    .container {
+        padding: 0 8px;
+        max-width: 616px;
+    }
+    .burger {
+        flex-direction: column;
+        display: flex;
+    }
+    .nav {
+        height: 180px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .nav_link {
+        display: none;
+    }
+    .txt_nav {
+        font-size: 22px;
+    }
+    .main_content {
+        width: 70%;
+    }
+    .main_content section {
+        text-align: left;
+        flex-direction: column;
+    }
+    .main_content section img {
+        max-height: 245px;
+        max-width: 100%;
+    }
+    .main_content section:nth-child(even) {
+        text-align-last: left;
+        flex-direction: column;
+    }
+    .main_content section .descr {
+        padding: 40px 36px 30px 30px;
+        min-height: 234px;
+    }
+    .descr h2 {
+        font-size: 40px;
+        text-align: left;
+        line-height: 39px;
+    }
+    .descr p {
+        line-height: 20px;
+        text-align: left;
+        opacity: .7;
+        font-size: 14px;
+    }
+    section .Date_l {
+        position: absolute;
+        right: 10px;
+        left: auto;
+        top: 10px;
+    }
+    .aside {
+        width: 30%;
+    }
+    .Date_l div,
+    .Date div {
+        font-size: 20px;
+    }
+    .Date .date_num,
+    .Date_l .date_num {
+        font-size: 34px;
+    }
+    .footer {
+        min-height: 120px;
+        flex-direction: column;
+        line-height: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_txt1,
+    .footer_txt2 {
+        opacity: .5;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 360px;
+    }
+    .nav {
+        height: 170px;
+    }
+    .post-0 {
+        padding: 30px 30px;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .main_content {
+        width: 100%;
+    }
+    .aside {
+        width: 100%;
+    }
+    .post_aside {
+        margin: 0 0 10px 0;
+    }
+    .descr h2 {
+        padding-right: 4px;
+        font-size: 30px;
+    }
+    .aside_txt {
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .a_descr {
+        line-height: 20px;
+        font-size: 12px;
+    }
+}
+
+body {
+    font-family: roboto;
+}
+
+.post-1 {
+    background: #9d27b0;
+}
+
+.post-2 {
+    background: #9bb800;
+}
+
+.post-3 {
+    background: #ed5120;
+}
+
+.post-4 {
+    background: #9d27b0;
+}
+
+.post-5 {
+    background: #2d95bb;
+}
+
+
+/* Your styles go here */
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Roboto', serif;
+    background-color: #0b192f;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    background-color: #024161;
+    height: 60px;
+    font-size: 12px;
+}
+
+.txt_nav {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.txt_nav span {
+    color: #b83462;
+    font-size: 18px;
+}
+
+.nav_link {
+    display: flex;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color: #fff;
+    min-width: 60px;
+    height: 100%;
+    font-weight: 400;
+}
+
+.link:hover {
+    background-color: #1f52a4;
+}
+
+.post-0 {
+    background: url(../img/post0.jpg) center center /cover no-repeat;
+    display: flex;
+    padding: 0 200px 36px 20px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.txt {
+    font-weight: 300;
+    font-size: 52px;
+    margin-bottom: 6px;
+}
+
+.post-0_descr {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.main_content {
+    width: 75%;
+}
+
+.main_content section {
+    min-height: 160px;
+    width: 100%;
+    display: flex;
+}
+
+.main_content img:hover,
+.descr h2:hover {
+    opacity: .7;
+}
+
+.main_content section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.main_content section:last-child {
+    min-height: 100px;
+}
+
+.main_content section img {
+    max-width: 49%;
+}
+
+.main_content section .descr {
+    display: flex;
+    padding: 18px;
+    flex-direction: column;
+}
+
+.main_content section:nth-child(even) {
+    text-align: right;
+}
+
+.main_content section .descr:last-child,
+.aside img {
+    width: 100%;
+}
+
+.post-5 .descr:last-child {
+    padding-right: 60px;
+}
+
+.descr {
+    position: relative;
+}
+
+.descr h2 {
+    line-height: 60px;
+    font-size: 60px;
+}
+
+.Date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.Date_l {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.Date_l div,
+.Date div {
+    font-size: 16px;
+    color: #fff;
+    opacity: .3;
+}
+
+.Date .date_num,
+.Date_l .date_num {
+    font-size: 28px;
+}
+
+.aside {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}
+
+.post_aside {
+    margin: 0 0 10px 10px;
+    background-color: #fff;
+}
+
+.aside_txt {
+    font-size: 15px;
+    color: #000;
+    padding: 12px 12px 0 12px;
+}
+
+.a_descr {
+    color: #000;
+    padding: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #024161;
+    padding: 16px;
+    height: 50px;
+}
+
+.footer_text1,
+.footer_text2 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.burger {
+    display: none;
+}
+
+.burger span {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 2px;
+}
+
+.burger span:nth-child(2) {
+    opacity: .6;
+}
+
+.burger span:last-child {
+    height: 1px;
+}
