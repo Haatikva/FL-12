@@ -1,0 +1,31 @@
+#root div:hover{
+    background-color:rgba(230, 230, 230, 0.479);
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.empty{
+    font-style: italic;
+    font-weight: lighter;
+    display: block;
+    cursor: text;
+}
+.file{
+    color:grey;
+}
+.animate_hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.animate_close{
+    color:orange;
+    vertical-align: bottom;
+}
+p {
+    margin: 0;
+    font-style: italic;
+    font-weight: lighter;
+}
